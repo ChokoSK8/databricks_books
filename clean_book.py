@@ -12,3 +12,7 @@ df = df.withColumn("publishedDate", col("publishedDate.$date").cast("timestamp")
 # COMMAND ----------
 
 df.write.json("dbfs:/FileStore/shared_uploads/antoine.b@datascientest.com/books_2.json")
+
+# COMMAND ----------
+
+print("new line code")
